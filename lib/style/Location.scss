@@ -1,0 +1,13 @@
+.map {
+    border-collapse: collapse;
+    &__cell {
+        width: 2rem;
+        height: 2rem;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid #F0F0F0;
+        &--active {
+            background-color: #F0F0F0;
+        }
+    }
+}
